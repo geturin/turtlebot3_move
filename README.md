@@ -37,6 +37,13 @@ source ~/.bashrc
 put this package in your work space
 ```
 cp -r turtlebot3_move ~/catkin_ws/src
+```
+or
+```
+cd ~/catkin_ws/src
+git clone https://github.com/geturin/turtlebot3_move.git
+```
+```
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
