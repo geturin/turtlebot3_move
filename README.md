@@ -2,7 +2,7 @@
 
 A ROS package can let turtlebot3 keep moving avoiding obstacles and go to random goal point in the standard world set（gazebo）
 
-
+video：https://youtu.be/ilukuZFjg7M
 base on ROS noetic,Ubuntu 20.04 and python3
 # Installation
 
