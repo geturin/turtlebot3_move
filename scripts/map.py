@@ -1,14 +1,9 @@
 #! /usr/bin/env python3
 import rospy
-import actionlib
 import numpy as np
 import cv2,cv_bridge
-from copy import copy
 from sensor_msgs.msg import Image
-from std_msgs.msg import String
-from nav_msgs.msg import Odometry
 from nav_msgs.msg import OccupancyGrid
-from move_base_msgs.msg  import MoveBaseAction,MoveBaseGoal,MoveBaseActionGoal
 from turtlebot3_move.srv import checkPoint,checkPointRequest,checkPointResponse
  
 def callback_map(mapData):
